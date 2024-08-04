@@ -1,0 +1,23 @@
+a {
+    color: white;
+    font-weight: bolder !important;
+    font-size: 1.2rem;
+}
+
+nav {
+    transition: .6s;
+}
+
+.active {
+    background-color: #1abc9c;
+    color: white !important;
+    border-radius: 0.5rem;
+}
+
+.nav-link {
+    margin-inline: 0.5rem;
+}
+
+li:hover a {
+    color: #1abc9c !important;
+}
