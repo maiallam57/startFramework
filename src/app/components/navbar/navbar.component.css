@@ -5,7 +5,7 @@ a {
 }
 
 nav {
-    transition: .6s;
+    transition: .6s padding;
 }
 
 .active {
