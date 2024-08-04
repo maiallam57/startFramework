@@ -1,0 +1,4 @@
+#star::before,
+#star::after {
+    background-color: white !important;
+}
