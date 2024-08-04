@@ -4,4 +4,5 @@
     --bs-primary-rgb: 26, 188, 156;
     --bs-secondary-rgb: 44, 62, 80;
     --bs-dark-rgb: 26, 37, 47;
+    --bs-emphasis-color-rgb: var(--bs-primary-rgb);
 }

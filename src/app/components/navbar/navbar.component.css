@@ -17,7 +17,3 @@ nav {
 .nav-link {
     margin-inline: 0.5rem;
 }
-
-li:hover a {
-    color: #1abc9c !important;
-}
