@@ -1,9 +1,6 @@
 <section class="pt-6 align-items-center">
     <div class="container mt-80">
-        <h2 class="text-uppercase mb-3 fs-1 fw-bolder text-center">portfolio component</h2>
-        <div class="text-center p-2" id="star" data-color="black">
-            <i class="fa-solid fa-star"></i>
-        </div>
+        <app-title [ComponentName]="ComponentName"></app-title>
         <div class="row">
             @for (item of imageUrlList; track $index) {
             <div class="col-lg-4 col-md-6 p-3">

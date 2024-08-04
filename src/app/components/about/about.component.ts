@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
-import { HomeAboutWrapperComponent } from '../home-about-wrapper/home-about-wrapper.component';
+import { TitleComponent } from "../title/title.component";
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [HomeAboutWrapperComponent],
+  imports: [TitleComponent],
   templateUrl: './about.component.html',
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
 
+  ComponentName: string = 'About component';
 }

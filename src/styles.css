@@ -5,6 +5,7 @@
     --bs-secondary-rgb: 44, 62, 80;
     --bs-dark-rgb: 26, 37, 47;
     --bs-emphasis-color-rgb: var(--bs-primary-rgb);
+    --bs-black-rgb: 44, 62, 80;
 }
 
 .pt-6 {
@@ -17,14 +18,4 @@
 
 section {
     min-height: calc(100vh - 40px);
-}
-
-#star::before,
-#star::after {
-    content: "";
-    background-color: black !important;
-    height: 4px;
-    width: 80px;
-    margin-inline: 1rem !important;
-    display: inline-block;
 }
