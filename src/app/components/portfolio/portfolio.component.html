@@ -4,8 +4,12 @@
         <div class="text-center p-2" id="star" data-color="black">
             <i class="fa-solid fa-star"></i>
         </div>
-        <div class="row py-2 px-3">
-            <app-portfolio-item></app-portfolio-item>
+        <div class="row">
+            @for (item of imageUrlList; track $index) {
+            <div class="col-lg-4 col-md-6 p-3">
+                <app-portfolio-item [imageurl]="item"></app-portfolio-item>
+            </div>
+            }
         </div>
     </div>
 </section>

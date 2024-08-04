@@ -10,4 +10,12 @@ import { PortfolioItemComponent } from '../portfolio-item/portfolio-item.compone
 })
 export class PortfolioComponent {
 
+  imageUrlList: string[] = [
+    'assets/images/poert1.png',
+    'assets/images/port2.png',
+    'assets/images/port3.png',
+    'assets/images/poert1.png',
+    'assets/images/port2.png',
+    'assets/images/port3.png'
+  ]
 }
