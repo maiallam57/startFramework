@@ -1,10 +1,11 @@
 a {
     color: white;
     font-weight: bolder !important;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 nav {
+
     transition: .6s padding;
 }
 
