@@ -1,4 +1,4 @@
-<div
-    class="model__ position-fixed start-0 w-100 top-0 h-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center">
-    alt="modal image" src="{{imageURL}}">
+<div *ngIf="showModal" (click)="close()"
+    class="model position-fixed start-0 w-100 top-0 h-100 bg-primary bg-opacity-50 d-flex justify-content-center align-items-center">
+    <img alt="modal image" [src]="imageURL" class="w-25">
 </div>

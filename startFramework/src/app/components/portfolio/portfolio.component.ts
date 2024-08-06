@@ -19,4 +19,6 @@ export class PortfolioComponent {
     'assets/images/port2.png',
     'assets/images/port3.png'
   ]
+
+
 }
