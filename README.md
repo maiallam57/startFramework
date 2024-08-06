@@ -1,4 +1,3 @@
-Here’s a sample README for your Angular project hosted at [https://github.com/maiallam57/startFramework](https://github.com/maiallam57/startFramework). You can modify it as needed based on the specifics of your project.
 
 ---
 
