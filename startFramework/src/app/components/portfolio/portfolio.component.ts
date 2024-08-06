@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { PortfolioItemComponent } from '../portfolio-item/portfolio-item.component';
 import { TitleComponent } from "../title/title.component";
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-portfolio',
@@ -9,7 +10,7 @@ import { TitleComponent } from "../title/title.component";
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.css'
 })
-export class PortfolioComponent {
+export class PortfolioComponent implements OnInit {
   ComponentName: string = 'portfolio component';
   imageUrlList: string[] = [
     'assets/images/poert1.png',
@@ -20,5 +21,11 @@ export class PortfolioComponent {
     'assets/images/port3.png'
   ]
 
+
+  constructor(private titleService: Title) { }
+
+  ngOnInit(): void {
+    this.titleService.setTitle('Portfolio');
+  }
 
 }
