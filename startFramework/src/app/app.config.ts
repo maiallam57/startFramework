@@ -5,7 +5,5 @@ import { routes } from './app.routes';
 import { provideClientHydration } from '@angular/platform-browser';
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes,
-    withHashLocation(),
-    withInMemoryScrolling({ scrollPositionRestoration: "top" })), provideClientHydration()]
+  providers: [provideRouter(routes, withInMemoryScrolling({ scrollPositionRestoration: "top" })), provideClientHydration()]
 };
