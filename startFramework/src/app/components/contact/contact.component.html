@@ -4,23 +4,12 @@
 
         <form action="" class="w-50 p-3 mx-auto mt-5">
 
-            <label for="userName" class="position-relative top-0">userName :</label>
-            <input id="userName" type="text" placeholder="userName" name="userName"
-                class="form-control border-0 border-bottom py-3 mb-3 position-relative">
+            <app-floating-input [type]="'text'" [name]="'userName'"></app-floating-input>
+            <app-floating-input [type]="'number'" [name]="'userAge'"></app-floating-input>
+            <app-floating-input [type]="'email'" [name]="'userEmail'"></app-floating-input>
+            <app-floating-input [type]="'password'" [name]="'userPassword'"></app-floating-input>
 
-            <label for="userAge" class="position-relative top-0">userAge :</label>
-            <input id="userAge" type="text" placeholder="userAge" name="userName"
-                class="form-control border-0 border-bottom py-3 mb-3 position-relative">
-
-            <label for="userEmail" class="position-relative top-0">userEmail :</label>
-            <input id="userEmail" type="text" placeholder="userEmail" name="userName"
-                class="form-control border-0 border-bottom py-3 mb-3 position-relative">
-
-            <label for="userPassword" class="position-relative top-0">userPassword :</label>
-            <input id="userPassword" type="text" placeholder="userPassword" name="userName"
-                class="form-control border-0 border-bottom py-3 mb-4 position-relative">
-
-            <button class="btn text-white bg-primary"> send Message</button>
+            <button class="btn text-white mt-2 bg-primary"> send Message</button>
         </form>
 
 

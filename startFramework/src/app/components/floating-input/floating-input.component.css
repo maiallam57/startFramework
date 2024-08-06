@@ -1,0 +1,28 @@
+.floating-label {
+    position: relative;
+    margin: 16px 0;
+}
+
+.floating-label input:focus {
+    box-shadow: none;
+}
+
+.floating-label label {
+    position: absolute;
+    box-shadow: none;
+    top: 2rem;
+    left: 8px;
+    font-size: 1rem;
+    color: #1abc9c;
+    transition: all 0.6s ease-in-out;
+    z-index: -1;
+}
+
+.floating-label input:focus+label,
+.floating-label label.floating {
+    top: -1rem;
+    left: 8px;
+    font-size: 1rem;
+    color: #1abc9c;
+    z-index: 0;
+}

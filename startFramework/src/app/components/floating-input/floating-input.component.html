@@ -1,0 +1,6 @@
+<div class="floating-label">
+
+    <input type="{{type}}" id="{{name}}" [(ngModel)]="value" (focus)="onFocus()" (blur)="onBlur()"
+        class="form-control border-0 border-bottom py-3 mb-3 position-relative" placeholder="{{name}}" required>
+    <label for="{{name}}" [class.floating]="value || isFocused">{{name}}:</label>
+</div>
