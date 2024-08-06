@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, HostBinding, Input } from '@angular/core';
 
 @Component({
   selector: 'app-title',
@@ -9,5 +9,12 @@ import { Component, Input } from '@angular/core';
 })
 export class TitleComponent {
   @Input() ComponentName!: string;
+  @Input() color: string = '#2c3e50';
+
+  @HostBinding('style.--before-after-color') beforeAfterColor!: string;
+
+  ngOnChanges(): void {
+    this.beforeAfterColor = this.color;
+  }
 
 }

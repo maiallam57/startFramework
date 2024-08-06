@@ -9,6 +9,6 @@ import { TitleComponent } from "../title/title.component";
   styleUrl: './notfound.component.css'
 })
 export class NotfoundComponent {
-  ComponentName: string = 'Oops!'
+  ComponentName: string = 'Oops!';
 
 }

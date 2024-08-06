@@ -1,10 +1,11 @@
 #star::before,
 #star::after {
-    --star-color: #2c3e50;
     content: "";
-    background-color: var(--star-color) !important;
+    background-color: var(--before-after-color) !important;
     height: 4px;
     width: 80px;
     margin-inline: 1rem !important;
     display: inline-block;
 }
+
+/* --before-after-color: #2c3e50; */
