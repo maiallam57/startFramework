@@ -48,10 +48,8 @@ npm install
 Start the development server:
 
 ```bash
-ng serve
+ng serve -open
 ```
-
-Open your browser and navigate to `http://localhost:4200` to view the application.
 
 ## Usage
 
@@ -68,7 +66,6 @@ Here’s a quick overview of the project structure:
 - `src/` - Contains the application source code.
   - `app/` - Contains the Angular components, services, and modules.
   - `assets/` - Static assets like images and styles.
-  - `environments/` - Configuration files for different environments.
 - `angular.json` - Angular CLI configuration file.
 - `package.json` - Contains project dependencies and scripts.
 - `README.md` - This file.
