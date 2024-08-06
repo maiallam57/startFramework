@@ -1,3 +1,4 @@
+<app-modal [imageURL]="selectedImage" [showModal]="showModal"></app-modal>
 <div class="card rounded-3 overflow-hidden position-relative" (click)="openModal(imageurl)">
     <img alt="" class=" w-100 rounded-3" [src]="imageurl">
     <div
@@ -5,4 +6,3 @@
         <i class="text-white fa-solid fa-plus fa-6x"></i>
     </div>
 </div>
-<app-modal [imageURL]="selectedImage" [showModal]="showModal"></app-modal>
